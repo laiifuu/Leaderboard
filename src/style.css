@@ -23,17 +23,17 @@ body {
 }
 
 main {
-    display: flex;
-    gap: 20px;
-    width: 70%;
+  display: flex;
+  gap: 20px;
+  width: 70%;
 }
 
 section {
-    flex: 1; 
+  flex: 1;
 }
 
 .add-score > form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
