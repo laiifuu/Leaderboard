@@ -16,7 +16,24 @@ html:focus-within {
 
 body {
   margin: 0;
+  padding: 50px;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+}
+
+section {
+    flex: 1; 
+}
+
+.add-score > form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
