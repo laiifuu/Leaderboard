@@ -2,22 +2,18 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  border: 1px solid violet;
 }
 
 html:focus-within {
   scroll-behavior: smooth;
 }
 
-/* Remove default margin */
 body,
 h1,
-h2,
-p {
+h2{
   margin: 0;
 }
 
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role='list'] {
   list-style: none;
   padding: 0;
@@ -34,7 +30,6 @@ li:last-child {
   border-bottom: none;
 }
 
-/* Set core body defaults */
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
@@ -48,7 +43,6 @@ body {
   padding: 20px;
 }
 
-/* Inherit fonts for inputs and buttons */
 input,
 button {
   font: inherit;
