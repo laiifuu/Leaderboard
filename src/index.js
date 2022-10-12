@@ -61,7 +61,7 @@ window.addEventListener('load', () => {
     .then((json) => {
       displayScores(json.result);
     });
-}); 
+});
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();

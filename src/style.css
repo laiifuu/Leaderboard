@@ -27,12 +27,13 @@ ul[role='list'] {
 
 li {
   padding: 15px;
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #999;
 }
 
 li:last-child {
   border-bottom: none;
 }
+
 /* Set core body defaults */
 body {
   min-height: 100vh;
@@ -53,16 +54,16 @@ button {
   font: inherit;
 }
 
-h1{
+h1 {
   font-size: 48px;
 }
 
-h2{
-  font-size:32px;
-
+h2 {
+  font-size: 32px;
 }
 
-button, input[type="submit"]{
+button,
+input[type="submit"] {
   background-color: #4fc4cf;
   padding: 10px;
   color: #fffffe;
@@ -70,7 +71,7 @@ button, input[type="submit"]{
 }
 
 input[type="text"] {
-  background-color:#f3d0ce;
+  background-color: #f3d0ce;
   padding: 10px;
   width: 100%;
   border: none;
@@ -102,7 +103,7 @@ main {
   align-items: flex-start;
 }
 
-#submit-btn{
+#submit-btn {
   align-self: flex-end;
 }
 
