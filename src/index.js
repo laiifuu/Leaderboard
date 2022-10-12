@@ -55,6 +55,14 @@ const displayScores = (arr) => {
   });
 };
 
+window.addEventListener('load', () => {
+  getScores()
+    .then((response) => response.json())
+    .then((json) => {
+      displayScores(json.result);
+    });
+});
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const userScore = {

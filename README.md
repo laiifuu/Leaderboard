@@ -11,6 +11,10 @@
 - JavaScript
 - Webpack, Linters, Gitflow
 
+## Live demo
+
+You can view a live demo of the project using this [link](https://laiifuu.github.io/Leaderboard/dist/).
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
