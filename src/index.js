@@ -8,20 +8,6 @@ const addScoreSection = document.querySelector('.add-score');
 const refreshBtn = document.querySelector('#refresh-scores');
 const scoresList = document.querySelector('ul');
 
-// const addNewGame = async (gameName) => {
-//   const response = await fetch(
-//     'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games',
-//     {
-//       method: 'POST',
-//       headers: {
-//         'Content-Type': 'application/json',
-//       },
-//       body: JSON.stringify({ name: gameName }),
-//     },
-//   );
-//   return response.json();
-// };
-
 const addNewScore = async (obj) => {
   const response = await fetch(
     `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${
